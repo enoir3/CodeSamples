@@ -7,7 +7,6 @@
 #
 # Use this fuzzer in conjunction with a debugger to confirm the
 # overflow actually exists instead of just crashing the program.
-
 #!/usr/bin/python
 import socket
 import time
