@@ -13,6 +13,7 @@ import time
 import sys
 
 size = 100 # Byte size of the first buffer to send
+
 while (size < 2000): # change maximum size as needed
 	try:
 		print "\nSending evil buffer with %s bytes" % size
