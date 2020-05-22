@@ -1,7 +1,6 @@
 # Perl fuzzer for testing web applications for buffer overflow vulnerabiliites.
 # This fuzzer is based on testing Vulnserver located: https://github.com/stephenbradshaw/vulnserver
 # See code blocks below main payload for templates on SEH overflow and an Egghunter
-
 #!/usr/bin/perl
 # Header, DO NOT CHANGE
 use IO::Socket;
