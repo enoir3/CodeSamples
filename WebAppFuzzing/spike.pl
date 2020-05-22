@@ -1,4 +1,3 @@
-#!/usr/bin/perl
 # Spike fuzzer template originally used against Vulnserver located:
 # https://github.com/stephenbradshaw/vulnserver
 # In Kali, application-specific Spike templates are found in /usr/share/spike/audits
@@ -6,6 +5,7 @@
 # NOTE: multiple versions of the same spike are in this one file
 # Find the one you want to use and delete the rest.
 # Recommend you save the file as something else and not overwrite the original.
+#!/usr/bin/perl
 
 # Simple wrapper to run multiple .spk files using generic_send_tcp
 $spikese = '/pentest/fuzzers/spike/generic_send_tcp';
